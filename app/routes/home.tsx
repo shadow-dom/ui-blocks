@@ -1,5 +1,4 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +8,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <>
+    <div className="flex flex-row">
+    <div className="sm:basis-1/3 sm:block hidden">01</div>
+    <div className="sm:basis-2/3 basis-1"></div>
+  </div>
+  </>;
 }
