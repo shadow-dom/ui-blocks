@@ -4,4 +4,5 @@ export default [
     index("routes/home.tsx"),
     route("dashboard", "routes/dashboard-2.tsx"),
     route("gantt", "routes/gantt.tsx"),
+    route("assignments", "routes/assignments.tsx"),
 ] satisfies RouteConfig;
